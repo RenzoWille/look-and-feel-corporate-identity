@@ -406,7 +406,6 @@ body {
 
 footer{
     display: grid;
-    width: 99%;
     font-size: var(--font-size-paragraph);
     font-family: var(--main-font);
     font-weight: var(--regular-font-weight);
