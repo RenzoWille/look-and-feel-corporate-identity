@@ -457,12 +457,20 @@ footer{
     }
 }
 
-.footer-info{
+.footer-info {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     padding-left: 5px;
+    text-decoration: none;
+    text-align: left;
 }
+
+.footer-info li {
+    list-style-type: none; /* Verwijdert bullet points */
+    margin: 5px 0;
+}
+
 
 @media (min-width: 1024px) {
     footer {
