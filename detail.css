@@ -13,7 +13,8 @@ body {
 
         .title-text,
         .lidmaatschap,
-        .steps {
+        .steps,
+        .form {
             max-width: 50%;
             margin-left: auto;
         }
@@ -55,12 +56,24 @@ body {
     border: 1px solid black;
     padding: 10px;
     margin: 15px;
+}
 
-    @media (min-width: 1024px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+.steps-container {
+    display: grid;
+}
+
+@media (min-width: 1024px) {
+    .steps-container {
+        grid-template-columns: 1fr 1fr; 
+        grid-auto-rows: auto; /* Zorgt dat de rijen automatisch de hoogte bepalen */
+    }
+
+    .steps{
+        width: 100%;
     }
 }
+
+
 
 form {
     max-width: 400px;
